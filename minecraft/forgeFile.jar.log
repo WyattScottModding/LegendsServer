@@ -1,0 +1,6 @@
+Option           Description                    
+------           -----------                    
+--extract        Extract the contained jar file 
+-h, --help       Help with this installer       
+--installServer  Install a server to the current
+                   directory                    

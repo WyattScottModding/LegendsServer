@@ -1,0 +1,523 @@
+[19:07:07] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[19:07:07] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[19:07:07] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_252, running on Linux:amd64:5.3.0-1023-aws, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[19:07:07] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[19:07:07] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[19:07:07] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[19:07:07] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[19:07:07] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[19:07:07] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[19:07:07] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[19:07:07] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[19:07:07] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[19:07:07] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[19:07:07] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /usr/games/minecraft/.
+[19:07:07] [main/DEBUG] [FML/]: Discovering coremods
+[19:07:07] [main/DEBUG] [FML/]: Examining for coremod candidacy 1Legends.jar
+[19:07:07] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in 1Legends.jar, it will be examined later for regular @Mod instances
+[19:07:07] [main/DEBUG] [FML/]: Instantiating coremod class LegendsLoadingPlugin
+[19:07:07] [main/DEBUG] [FML/]: The coremod com.tihyo.legends.management.asm.LegendsLoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[19:07:07] [main/DEBUG] [FML/]: Enqueued coremod LegendsLoadingPlugin
+[19:07:07] [main/DEBUG] [FML/]: Examining for coremod candidacy CraftGuide.jar
+[19:07:07] [main/DEBUG] [FML/]: Not found coremod data in CraftGuide.jar
+[19:07:07] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:07:07] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[19:07:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:07:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:07:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:07:07] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[19:07:07] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[19:07:07] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[19:07:07] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[19:07:07] [main/DEBUG] [FML/]: Injection complete
+[19:07:07] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[19:07:07] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[19:07:09] [main/DEBUG] [FML/]: Read 527 binary patches
+[19:07:10] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:07:10] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[19:07:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:07:10] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[19:07:10] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[19:07:10] [main/DEBUG] [FML/]: Injection complete
+[19:07:10] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[19:07:10] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[19:07:10] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[19:07:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:07:10] [main/DEBUG] [FML/]: Injecting coremod LegendsLoadingPlugin {com.tihyo.legends.management.asm.LegendsLoadingPlugin} class transformers
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerModelBiped
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerEntityPlayer
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerItemRenderer
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerRenderPlayer
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerEntityLivingBase
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerEffectRenderer
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerColor
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerMinecraftServer
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerEntity
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerEntityOtherPlayerMP
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerEntityRenderer
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerEntityPlayerSP
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerRenderBiped
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerGuiInventory
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerFoodStats
+[19:07:10] [main/TRACE] [FML/]: Registering transformer com.tihyo.legends.management.asm.TransformerWorld
+[19:07:10] [main/DEBUG] [FML/]: Injection complete
+[19:07:10] [main/DEBUG] [FML/]: Running coremod plugin for LegendsLoadingPlugin {com.tihyo.legends.management.asm.LegendsLoadingPlugin}
+[19:07:10] [main/DEBUG] [FML/]: Running coremod plugin LegendsLoadingPlugin
+[19:07:10] [main/DEBUG] [FML/]: Coremod plugin class LegendsLoadingPlugin run successfully
+[19:07:10] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[19:07:10] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[19:07:10] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[19:07:10] [main/DEBUG] [FML/]: Validating minecraft
+[19:07:11] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[19:07:11] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[19:07:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[19:07:11] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[19:07:17] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[19:07:17] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[19:07:17] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[19:07:17] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[19:07:17] [Server thread/DEBUG] [FML/]: File /usr/games/minecraft/config/injectedDependencies.json not found. No dependencies injected
+[19:07:17] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[19:07:17] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[19:07:17] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /usr/games/minecraft/forge-1.7.10-10.13.4.1558-1.7.10-universal.jar, examining for mod candidates
+[19:07:17] [Server thread/TRACE] [FML/]: Skipping known library file /usr/games/minecraft/mods/1Legends.jar
+[19:07:17] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[19:07:17] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[19:07:17] [Server thread/INFO] [FML/]: Searching /usr/games/minecraft/mods for mods
+[19:07:17] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file 1Legends.jar
+[19:07:17] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CraftGuide.jar
+[19:07:17] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10-universal.jar for potential mods
+[19:07:17] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10-universal.jar appears to be missing an mcmod.info file
+[19:07:18] [Server thread/DEBUG] [FML/]: Examining file 1Legends.jar for potential mods
+[19:07:18] [Server thread/TRACE] [FML/]: Located mcmod.info file in file 1Legends.jar
+[19:07:18] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.tihyo.legends.common.Main) - loading
+[19:07:18] [Server thread/TRACE] [legends/]: Parsed dependency info : [] [] []
+[19:07:19] [Server thread/DEBUG] [FML/]: Examining file CraftGuide.jar for potential mods
+[19:07:19] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CraftGuide.jar
+[19:07:19] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (uristqwerty.CraftGuide.CraftGuide_FML) - loading
+[19:07:19] [Server thread/TRACE] [craftguide/]: Parsed dependency info : [] [] []
+[19:07:20] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[19:07:20] [Server thread/TRACE] [FML/]: Received a system property request ''
+[19:07:20] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[19:07:20] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[19:07:20] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[19:07:20] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[19:07:20] [Server thread/DEBUG] [legends/]: Enabling mod legends
+[19:07:20] [Server thread/DEBUG] [FML/]: Found translations in 1Legends.jar [en_US, en_US, en_US, en_US, en_US]
+[19:07:20] [Server thread/DEBUG] [craftguide/]: Enabling mod craftguide
+[19:07:20] [Server thread/DEBUG] [FML/]: Found translations in CraftGuide.jar [en_US, fr_CA, fr_FR, pt_BR, ru_RU, zh_CN, zh_TW]
+[19:07:20] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[19:07:20] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[19:07:20] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[19:07:20] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[19:07:20] [Server thread/DEBUG] [FML/]: Mod sorting data
+[19:07:20] [Server thread/DEBUG] [FML/]: 	legends(Legends Mod:6.10): 1Legends.jar ()
+[19:07:20] [Server thread/DEBUG] [FML/]: 	craftguide(CraftGuide:1.7.1.0): CraftGuide.jar ()
+[19:07:20] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[19:07:20] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[19:07:20] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[19:07:20] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[19:07:20] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[19:07:20] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[19:07:20] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[19:07:20] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, legends, craftguide] at CLIENT
+[19:07:20] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, legends, craftguide] at SERVER
+[19:07:20] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[19:07:20] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.494s
+[19:07:20] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[19:07:20] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[19:07:20] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[19:07:20] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[19:07:20] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[19:07:20] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.016s
+[19:07:20] [Server thread/TRACE] [legends/legends]: Sending event FMLConstructionEvent to mod legends
+[19:07:20] [Server thread/TRACE] [FML/legends]: Mod legends is using network checker : Accepting version 6.10
+[19:07:20] [Server thread/TRACE] [FML/legends]: Testing mod legends to verify it accepts its own version in a remote connection
+[19:07:20] [Server thread/TRACE] [FML/legends]: The mod legends accepts its own version (6.10)
+[19:07:20] [Server thread/DEBUG] [FML/legends]: Attempting to inject @SidedProxy classes into legends
+[19:07:20] [Server thread/TRACE] [legends/legends]: Sent event FMLConstructionEvent to mod legends
+[19:07:20] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Legends Mod took 0.052s
+[19:07:20] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLConstructionEvent to mod craftguide
+[19:07:20] [Server thread/TRACE] [FML/craftguide]: Mod craftguide is using network checker : Accepting version 1.7.1.0
+[19:07:20] [Server thread/TRACE] [FML/craftguide]: Testing mod craftguide to verify it accepts its own version in a remote connection
+[19:07:20] [Server thread/TRACE] [FML/craftguide]: The mod craftguide accepts its own version (1.7.1.0)
+[19:07:20] [Server thread/DEBUG] [FML/craftguide]: Attempting to inject @SidedProxy classes into craftguide
+[19:07:20] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLConstructionEvent to mod craftguide
+[19:07:20] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CraftGuide took 0.033s
+[19:07:20] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.597s
+[19:07:20] [Server thread/DEBUG] [FML/]: Mod signature data
+[19:07:20] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[19:07:20] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[19:07:20] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[19:07:20] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[19:07:20] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[19:07:20] [Server thread/DEBUG] [FML/]: 		legends	(Legends Mod	6.10)	1Legends.jar
+[19:07:20] [Server thread/DEBUG] [FML/]: 		craftguide	(CraftGuide	1.7.1.0)	CraftGuide.jar
+[19:07:20] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[19:07:20] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[19:07:20] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[19:07:20] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[19:07:21] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[19:07:21] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[19:07:21] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.002s
+[19:07:21] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[19:07:21] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[19:07:21] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[19:07:21] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[19:07:21] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[19:07:21] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[19:07:21] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.085s
+[19:07:21] [Server thread/TRACE] [legends/legends]: Sending event FMLPreInitializationEvent to mod legends
+[19:07:24] [Server thread/INFO] [STDOUT/legends]: [com.tihyo.legends.management.LegendsHelper:log:143]: [Legends Mod] Guild file already generated.
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity ArmorStand as legends.ArmorStand
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity ArmorCase as legends.ArmorCase
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity SteveStand as legends.SteveStand
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity PunchingBag as legends.PunchingBag
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity NPC as legends.NPC
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity IceBlock as legends.IceBlock
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Vampire as legends.Vampire
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Godzilla as legends.Godzilla
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Jedi as legends.Jedi
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Sith as legends.Sith
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Hurikanean as legends.Hurikanean
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity AggresiveBat as legends.AggresiveBat
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity ScentTracker as legends.ScentTracker
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity WakandanNative as legends.WakandanNative
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity WakandanSoldier as legends.WakandanSoldier
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Batchair as legends.Batchair
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Ant as legends.Ant
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Antony as legends.Antony
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Prisoner as legends.Prisoner
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity SymbioteBlob as legends.SymbioteBlob
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity IronManArmor as legends.IronManArmor
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Mark7Pod as legends.Mark7Pod
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity KingpinThug1 as legends.KingpinThug1
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity KingpinThug2 as legends.KingpinThug2
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Shocker as legends.Shocker
+[19:07:24] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Kingpin as legends.Kingpin
+[19:07:28] [Server thread/TRACE] [legends/legends]: Sent event FMLPreInitializationEvent to mod legends
+[19:07:28] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Legends Mod took 7.643s
+[19:07:28] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLPreInitializationEvent to mod craftguide
+[19:07:28] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLPreInitializationEvent to mod craftguide
+[19:07:28] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CraftGuide took 0.078s
+[19:07:28] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 7.809s
+[19:07:28] [Server thread/INFO] [FML/]: Applying holder lookups
+[19:07:28] [Server thread/INFO] [FML/]: Holder lookups applied
+[19:07:28] [Server thread/INFO] [FML/]: Injecting itemstacks
+[19:07:28] [Server thread/INFO] [FML/]: Itemstack injection complete
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.001s
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.001s
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sending event FMLInitializationEvent to mod legends
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity Bullet as legends.Bullet
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Lightsaber as legends.legends.Lightsaber
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.LightsaberDouble as legends.legends.LightsaberDouble
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.LightningAura as legends.legends.LightningAura
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Teleport as legends.legends.Teleport
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.LaserVision as legends.legends.LaserVision
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FreezeBreath as legends.legends.FreezeBreath
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SuperBreath as legends.legends.SuperBreath
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SolarFlare as legends.legends.SolarFlare
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SonicPunch as legends.legends.SonicPunch
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Machete as legends.legends.Machete
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ChuckyKnife as legends.legends.ChuckyKnife
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceLightning as legends.legends.ForceLightning
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceDrain as legends.legends.ForceDrain
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceBurst as legends.legends.ForceBurst
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceRepulse as legends.legends.ForceRepulse
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceDestruction as legends.legends.ForceDestruction
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceSphere as legends.legends.ForceSphere
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceBarrier as legends.legends.ForceBarrier
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceOrb as legends.legends.ForceOrb
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.LightningGrenade as legends.legends.LightningGrenade
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.LightningBurst as legends.legends.LightningBurst
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceBubble as legends.legends.ForceBubble
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ForceStorm as legends.legends.ForceStorm
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ChainLightning as legends.legends.ChainLightning
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity AtomicBreath as legends.AtomicBreath
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity NuclearPulse as legends.NuclearPulse
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity LightningStream as legends.LightningStream
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity LightningTrail as legends.LightningTrail
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArmVortex as legends.legends.ArmVortex
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Batarang as legends.legends.Batarang
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ExplosiveBatarang as legends.legends.ExplosiveBatarang
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.HeatedBatarang as legends.legends.HeatedBatarang
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ElectricBatarang as legends.legends.ElectricBatarang
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SmokePellet as legends.legends.SmokePellet
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.GasPellet as legends.legends.GasPellet
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ThrowingBird as legends.legends.ThrowingBird
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.RShuriken as legends.legends.RShuriken
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.RRDisc as legends.legends.RRDisc
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WingDing as legends.legends.WingDing
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WristDart as legends.legends.WristDart
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SonicBatarang as legends.legends.SonicBatarang
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ExplosiveGel as legends.legends.ExplosiveGel
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.GrapplingHook as legends.legends.GrapplingHook
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.GrapplingHookPull as legends.legends.GrapplingHookPull
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Grenade as legends.legends.Grenade
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.JokerCard as legends.legends.JokerCard
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.JokerGrenade as legends.legends.JokerGrenade
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.JokerAcid as legends.legends.JokerAcid
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FreezeBeam as legends.legends.FreezeBeam
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Iceball as legends.legends.Iceball
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.IceWall as legends.legends.IceWall
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.IceGrenade as legends.legends.IceGrenade
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ZeroBeam as legends.legends.ZeroBeam
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.IceShard as legends.legends.IceShard
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FireBlast as legends.legends.FireBlast
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ConcussiveFireBlast as legends.legends.ConcussiveFireBlast
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.HeatWave as legends.legends.HeatWave
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FireBomb as legends.legends.FireBomb
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.RingOfFire as legends.legends.RingOfFire
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Forcefield as legends.legends.Forcefield
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.LegendsLightningBolt as legends.legends.LegendsLightningBolt
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SolarBeam as legends.legends.SolarBeam
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.CapShield as legends.legends.CapShield
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Mjolnir as legends.legends.Mjolnir
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Stormbreaker as legends.legends.Stormbreaker
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.GodBlast as legends.legends.GodBlast
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.EnergyDagger as legends.legends.EnergyDagger
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.EnergyPulse as legends.legends.EnergyPulse
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Stinger as legends.legends.Stinger
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Rocket as legends.legends.Rocket
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Repulsor as legends.legends.Repulsor
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Repulsor2 as legends.legends.Repulsor2
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Unibeam as legends.legends.Unibeam
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Flare as legends.legends.Flare
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Laser as legends.legends.Laser
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.TriLaser as legends.legends.TriLaser
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.Missile as legends.legends.Missile
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.MicroProjectile as legends.legends.MicroProjectile
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.AshBreath as legends.legends.AshBreath
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FireBreath as legends.legends.FireBreath
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.BlazingBolts as legends.legends.BlazingBolts
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FireVortex as legends.legends.FireVortex
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FireTornado as legends.legends.FireTornado
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SymbioteShard as legends.legends.SymbioteShard
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SymbioteWebShoot as legends.legends.SymbioteWebShoot
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WebCocoon as legends.legends.WebCocoon
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WebShoot as legends.legends.WebShoot
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WebPull as legends.legends.WebPull
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WebRecoil as legends.legends.WebRecoil
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WebNet as legends.legends.WebNet
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WebGrenade as legends.legends.WebGrenade
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ElectricWeb as legends.legends.ElectricWeb
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WebBarrage as legends.legends.WebBarrage
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.SymbioteMeteor as legends.legends.SymbioteMeteor
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FearGas as legends.legends.FearGas
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.CreeperDagger as legends.legends.CreeperDagger
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.CreeperSpear as legends.legends.CreeperSpear
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.CreeperShuriken as legends.legends.CreeperShuriken
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArrowGreen as legends.legends.ArrowGreen
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArrowExplosive as legends.legends.ArrowExplosive
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArrowTearGas as legends.legends.ArrowTearGas
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArrowGrapple as legends.legends.ArrowGrapple
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArrowFire as legends.legends.ArrowFire
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArrowCryonic as legends.legends.ArrowCryonic
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArrowBoxingGlove as legends.legends.ArrowBoxingGlove
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.CanaryCry as legends.legends.CanaryCry
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ArrowKryptonite as legends.legends.ArrowKryptonite
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ElectricJudgement as legends.legends.ElectricJudgement
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.LaserBlast as legends.legends.LaserBlast
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WhipcordLauncher as legends.legends.WhipcordLauncher
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.WhistlingBirds as legends.legends.WhistlingBirds
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ShockerBlast as legends.legends.ShockerBlast
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ShockerShockwave as legends.legends.ShockerShockwave
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.LightningBlast as legends.legends.LightningBlast
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.ScorchedEarth as legends.legends.ScorchedEarth
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.HellFireOrb as legends.legends.HellFireOrb
+[19:07:29] [Server thread/TRACE] [FML/legends]: Automatically registered mod legends entity legends.FreezeGrenade as legends.legends.FreezeGrenade
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sent event FMLInitializationEvent to mod legends
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Legends Mod took 0.481s
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLInitializationEvent to mod craftguide
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLInitializationEvent to mod craftguide
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - CraftGuide took 0.022s
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.505s
+[19:07:29] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.008s
+[19:07:29] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.001s
+[19:07:29] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[19:07:29] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod legends
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sending event IMCEvent to mod legends
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sent event IMCEvent to mod legends
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Legends Mod took 0.001s
+[19:07:29] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod craftguide
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sending event IMCEvent to mod craftguide
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sent event IMCEvent to mod craftguide
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - CraftGuide took 0.001s
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.011s
+[19:07:29] [Server thread/INFO] [FML/]: Injecting itemstacks
+[19:07:29] [Server thread/INFO] [FML/]: Itemstack injection complete
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.001s
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.008s
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sending event FMLPostInitializationEvent to mod legends
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sent event FMLPostInitializationEvent to mod legends
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Legends Mod took 0.002s
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLPostInitializationEvent to mod craftguide
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLPostInitializationEvent to mod craftguide
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - CraftGuide took 0.002s
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.013s
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[19:07:29] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[19:07:29] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[19:07:29] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.023s
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sending event FMLLoadCompleteEvent to mod legends
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sent event FMLLoadCompleteEvent to mod legends
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Legends Mod took 0.000s
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLLoadCompleteEvent to mod craftguide
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLLoadCompleteEvent to mod craftguide
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - CraftGuide took 0.001s
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.024s
+[19:07:29] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[19:07:29] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[19:07:29] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[19:07:29] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[19:07:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.004s
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[19:07:29] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[19:07:29] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sending event FMLServerAboutToStartEvent to mod legends
+[19:07:29] [Server thread/TRACE] [legends/legends]: Sent event FMLServerAboutToStartEvent to mod legends
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Legends Mod took 0.000s
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLServerAboutToStartEvent to mod craftguide
+[19:07:29] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLServerAboutToStartEvent to mod craftguide
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - CraftGuide took 0.008s
+[19:07:29] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.013s
+[19:07:30] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[19:07:30] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[19:07:30] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[19:07:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[19:07:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[19:07:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[19:07:30] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[19:07:30] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[19:07:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[19:07:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[19:07:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[19:07:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
+[19:07:30] [Server thread/TRACE] [legends/legends]: Sending event FMLModIdMappingEvent to mod legends
+[19:07:30] [Server thread/TRACE] [legends/legends]: Sent event FMLModIdMappingEvent to mod legends
+[19:07:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Legends Mod took 0.000s
+[19:07:30] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLModIdMappingEvent to mod craftguide
+[19:07:30] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLModIdMappingEvent to mod craftguide
+[19:07:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CraftGuide took 0.001s
+[19:07:30] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.005s
+[19:07:30] [Server thread/INFO] [FML/]: Applying holder lookups
+[19:07:30] [Server thread/INFO] [FML/]: Holder lookups applied
+[19:07:30] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[19:07:30] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[19:07:30] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 0 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 36 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 35 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 34 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 33 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 32 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 31 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 54 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 53 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 30 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 51 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension -1 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 50 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:30] [Server thread/INFO] [FML/]: Loading dimension 1 (Wakanda) (net.minecraft.server.dedicated.DedicatedServer@6d5da50b)
+[19:07:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[19:07:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[19:07:36] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[19:07:36] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[19:07:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[19:07:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.003s
+[19:07:36] [Server thread/TRACE] [legends/legends]: Sending event FMLServerStartingEvent to mod legends
+[19:07:36] [Server thread/TRACE] [legends/legends]: Sent event FMLServerStartingEvent to mod legends
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Legends Mod took 0.094s
+[19:07:36] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLServerStartingEvent to mod craftguide
+[19:07:36] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLServerStartingEvent to mod craftguide
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - CraftGuide took 0.004s
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.101s
+[19:07:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[19:07:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[19:07:36] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[19:07:36] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[19:07:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[19:07:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[19:07:36] [Server thread/TRACE] [legends/legends]: Sending event FMLServerStartedEvent to mod legends
+[19:07:36] [Server thread/TRACE] [legends/legends]: Sent event FMLServerStartedEvent to mod legends
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Legends Mod took 0.000s
+[19:07:36] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLServerStartedEvent to mod craftguide
+[19:07:36] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLServerStartedEvent to mod craftguide
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - CraftGuide took 0.000s
+[19:07:36] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
+[19:07:45] [Netty IO #0/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[19:07:45] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[19:07:45] [Netty IO #0/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[19:07:45] [Netty IO #0/INFO] [FML/]: Client attempting to join with 5 mods : legends@6.10,FML@7.10.99.99,Forge@10.13.4.1558,mcp@9.05,craftguide@1.7.1.0
+[19:07:45] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[19:07:45] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[19:07:45] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[19:07:45] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[19:07:45] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[19:07:45] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[19:08:21] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Wakanda
+[19:08:45] [Netty IO #0/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[19:08:45] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[19:08:45] [Netty IO #0/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[19:08:45] [Netty IO #0/INFO] [FML/]: Client attempting to join with 5 mods : legends@6.10,FML@7.10.99.99,Forge@10.13.4.1558,mcp@9.05,craftguide@1.7.1.0
+[19:08:45] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[19:08:45] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[19:08:45] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[19:08:45] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[19:08:45] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[19:08:45] [Netty IO #0/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[19:09:06] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Wakanda
+[19:09:53] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Wakanda
+[19:10:39] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Wakanda
